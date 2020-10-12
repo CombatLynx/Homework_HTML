@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+<body>
+<form action="signup.php" method="POST">
+    <div>
+         Registration
+    </div>
+
+    <div>
+        <label>
+            <span> Enter your name </span>
+            <input type="text" name="firstName"/>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <span> Enter your last name</span>
+            <input type="text" name="lastName"/>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <span> Enter your username </span>
+            <input type="text" name="userName"/>
+        </label>
+    </div>
+
+    <div>
+        <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+    </div>
+
+    <div>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd">
+    </div>
+
+    <div>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone" required />
+    </div>
+
+    <div>
+        <label>
+            <input type="checkbox" name="rememberMe"/>&nbsp;Remember Me?
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <select name="language">
+                <option value="en">English</option>
+                <option value="ru" selected>Russian</option>
+            </select>
+        </label>
+    </div>
+
+    <button type="submit">Sign Up</button>
+</form>
+
+</body>
+</html>
